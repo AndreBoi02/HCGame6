@@ -1,0 +1,114 @@
+{
+    "name": "PlayerController",
+    "maps": [
+        {
+            "name": "Controller",
+            "id": "0f20f051-b4da-4194-9bcf-e6ab6309b79d",
+            "actions": [
+                {
+                    "name": "ShootC1",
+                    "type": "PassThrough",
+                    "id": "a878b0ee-3428-4364-87aa-b3dcb16e0251",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ShootC2",
+                    "type": "PassThrough",
+                    "id": "922a36a0-a6f0-435b-b4ad-7b2fc0da1788",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ShootC3",
+                    "type": "PassThrough",
+                    "id": "e6b15ae9-b92d-4cae-8e01-86fc567a3458",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ShootC4",
+                    "type": "PassThrough",
+                    "id": "70294044-fe0b-493f-b3f9-083945bc3335",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ShootC5",
+                    "type": "PassThrough",
+                    "id": "85e8de2f-806a-48ec-be28-887aa52e4429",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4a14153f-d6b6-40a7-9614-aa9bc8543651",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootC1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a7707dd-e22d-49b5-9fff-4c15b6400c5e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootC2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb5e95a3-589a-4cbc-bbc7-dad63b30d75c",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootC3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aad437fe-7c93-4b84-a38e-6df7038c15e5",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootC4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91b4bd3a-fde9-4f1b-90f1-883c16fc4179",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootC5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
